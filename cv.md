@@ -101,12 +101,45 @@ void ExclAverFilterHandler(ExclAverFilterStruct *Signal)
 - [C-based filters lib](https://github.com/Friday-13/libfilters)
 
 ## Work History
+- **Self-employed** \
+    December 2020 - Present \
+    pos. *Microcontroller software developer*
+    
+- **Research Institute of Automation of Production Processes** \
+    August 2020 - December 2020 and July 2021 - December 2021 \
+    pos. *Microcontroller software developer*
+
+- **TB.Budget** \
+    July 2014 - August 2014 \
+    pos. *Technical writer*
+
+
 
 ## Education
-- ...
-- ...
+- **Master's degree** (2019-2021):
+    - Bauman Moscow State Technical Uiversity \
+    dep. Robotics and сomplex automation \
+    spec. Mechanical engineering
+- **Bachelor's degree** (2015-2019):
+    - Bauman Moscow State Technical Uiversity \
+    dep. Radioelectronics and laser technologies \
+    spec. Nanoengineering 
+
 
 ### Additional Education
-...
+- **English** \
+    Yandex Practicum \
+    November 2022 - Present
+- [**Database design**](https://stepik.org/cert/1988834) \
+    Stepik \
+    March 2022 - July 2022
+- [**Advanced SQL**](https://stepik.org/cert/1962732) \
+    Stepik \
+    March 2022 - July 2022
+- [**Base SQL**](https://stepik.org/cert/1523830) \
+    Stepik \
+    March 2022 - July 2022
 
 ### Language
+- **Russian** - native speaker
+- **English** - B1
