@@ -1,5 +1,5 @@
 # Dmitry Samsonenko
-![photo](photo_url)
+![photo](./img/photo_cv.jpg)
 ## Contacts
 - **Email**: samsondm97it@gmail.com
 - **Discord**: friday5386
