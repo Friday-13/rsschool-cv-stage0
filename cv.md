@@ -10,11 +10,12 @@
 ## About Me
 
 Beginner Python developer.
-Looking for a job in the backend (Python, Django etc), but also try to master the basic frontend.
-I like to master new IT things and techology.
-I used to work (and still work) as an embedded developer.
+I started my career as a software developer for microcontrollers. Now I'm trying to change this sphere of IT to Web-development.
 
-...
+I'm looking for a job as a Python developer and I'm trying to develop in backend development, but I'm also interested in studying the basics of frontend development.
+I like to learn new technologies. Developing and gaining new experience in IT is what brings me real pleasure. And I am really glad  when I can see the result of my work - new program or feature of program, that can do something new, something useful.
+
+I am responsible, I work well in a team and can organize my working time. I always try to find a common language with any project participant and I don't afraid to master some new skills.
 
 ## Skills
 
