@@ -4,7 +4,7 @@
 ## Contacts
 
 - **Email**: samsondm97it@gmail.com
-- **Discord**: friday5386
+- **Discord**: friday5386 (rs-school server: Dmitry (@Friday-13))
 - **GitHub**: https://github.com/Friday-13
 
 ## About Me
