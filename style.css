@@ -20,7 +20,6 @@ html {
 
 body {
   font-family: "Raleway";
-  border: 1px solid red;
   
   min-height: 100vh;
   margin: 0;
@@ -33,19 +32,25 @@ body {
 }
 
 .header {
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  padding: 0 0;
 }
 
 .main {
-  border: 1px solid red;
 }
 
 .footer {
-  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2vw 5vw;
+
 }
 
 .nav {
   background-color: cyan;
+  margin: 0 0;
+  padding: 1vh 1vw;
 }
 
 .nav-list {
@@ -56,6 +61,7 @@ body {
 }
 
 .nav-item {
+  border-left: 1px solid black;
 }
 
 .nav-link {
@@ -74,3 +80,19 @@ body {
   color: yellow;
 }
 
+
+.section {
+}
+
+.section-title {
+
+}
+
+.year {
+  font-size: 24px;
+}
+
+.image-link{
+  padding: 2px 2px;
+  align-self: center;
+}
