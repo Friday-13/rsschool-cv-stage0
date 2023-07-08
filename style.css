@@ -202,3 +202,26 @@ body {
 .link:hover {
   color: #4a9292;
 }
+
+.item-light{
+  border-color: white;
+  padding-left: 10px;
+}
+
+.item-simple{
+  border: none;
+  padding-left: 5px;
+}
+
+
+.link-light {
+  color: white;
+}
+
+.link-light:visited {
+  color: white;
+}
+
+.link-light:hover {
+  color: #4a9292;
+}
