@@ -81,10 +81,11 @@
             </ul>
           </li>
           <li>SQL</li>
-          <li>C</li>
-          <ul>
-            <li>STM32-programming</li>
-          </ul>
+          <li>C
+            <ul>
+              <li>STM32-programming</li>
+            </ul>
+          </li>
           <li>LaTeX</li>
         </ul>
 
@@ -143,33 +144,38 @@
       <section id="work-story" class="section">
         <h2 class="section-title">Work Story</h2>
         <ul>
-          <li>
+          <li class="section-list-item">
             Self-employed <br>
             December 2020 - Present <br>
-            pos. Microcontroller software developer
+            pos. Microcontroller software developer <br>
+            Startup work. I develop software for medical equipment, automated firmware systems for the developed equipment.<br>
+            Achievements: The developed product was brought to pilot production.
           </li>
-          <li>
+          <li class="section-list-item">
             Research Institute of Automation of Production Processes <br>
             August 2020 - December 2020 and July 2021 - December 2021 <br>
-            pos. _Microcontroller software developer
+            pos. Microcontroller software developer <br>
+            Participated in: development of sensors and monitoring systems for industries;
+            analysis of experimental data; development of architecture of monitoring systems.<br>
+            Achievements: Developed software for a prototype monitoring system based on LVDT sensors.
           </li>
-          <li>
+          <li class="section-list-item">
             TB.Budget <br>
             July 2014 - August 2014 <br>
-            pos. Technical writer
+            pos. Technical writer <br>
+            Worked with html, wrote help doc for a software product.
           </li>
         </ul>
 
       </section>
       <section id="code-example" class="section">
         <h2 class="section-title">Code Example</h2>
-        <p><a href="https://leetcode.com/problems/merge-two-sorted-lists/">LeetCode: 21. Merge Two Sorted Lists</a></p>
-        <pre>
-      <code>
-
-<div class="code-example">
+        <h3><a href="https://leetcode.com/problems/merge-two-sorted-lists/" class="link">LeetCode: 21. Merge Two Sorted Lists</a></h3>
+        <pre class="code-format">
+      <code class="code-example">
   class Solution:
-      def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -&gt Optional[ListNode]:
+      def mergeTwoLists(self, list1: Optional[ListNode], 
+                        list2: Optional[ListNode]) -&gt; Optional[ListNode]:
   
           if not list1:
               return list2
@@ -181,7 +187,7 @@
           head2 = list2
           new_head = ListNode()
           current_node = None
-          if head1.val &lt= head2.val:
+          if head1.val &lt;= head2.val:
               new_head.val = head1.val
               head1 = head1.next
           else:
@@ -191,7 +197,7 @@
           current_node = new_head
   
           while head1 and head2:
-              if head1.val &lt= head2.val:
+              if head1.val &lt;= head2.val:
                   current_node.next = head1
                   head1 = head1.next
               else:
@@ -205,14 +211,13 @@
               current_node.next = head2
   
           return new_head
-</div>
       </code>
        </pre>
         <section id="projects" class="section">
           <h3>Project Example</h3>
           <ul>
-            <li><a href="https://github.com/Friday-13/dartblog">Project with base blog functionality based on Django</a></li>
-            <li><a href="https://github.com/Friday-13/libfilters">C-based filters lib</a></li>
+            <li class="section-list-item"><a href="https://github.com/Friday-13/dartblog" class="link">Project with base blog functionality based on Django</a></li>
+            <li class="section-list-item"><a href="https://github.com/Friday-13/libfilters" class="link">C-based filters lib</a></li>
           </ul>
         </section>
       </section>
@@ -221,7 +226,7 @@
 
   <footer class="footer">
     <a href="https://github.com/Friday-13" class="image-link">
-      <img src="./assets/img/Octicons-github.svg" height=50 alt="My github"><br>
+      <img src="./assets/img/Octicons-github.svg" height=50 alt="My github">
     </a>
 
     <p class="year">2023</p>
