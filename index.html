@@ -89,7 +89,51 @@
 
     <section id="code-example" class="section">
       <h2 class="section-title">Code Example</h2>
-      <p>???</p>
+      <p><a href="https://leetcode.com/problems/merge-two-sorted-lists/">LeetCode: 21. Merge Two Sorted Lists</a></p>
+      <code>
+        <pre>
+
+<div class="code-example">
+  class Solution:
+      def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -&gt Optional[ListNode]:
+  
+          if not list1:
+              return list2
+  
+          if not list2:
+              return list1
+  
+          head1 = list1
+          head2 = list2
+          new_head = ListNode()
+          current_node = None
+          if head1.val &lt= head2.val:
+              new_head.val = head1.val
+              head1 = head1.next
+          else:
+              new_head.val = head2.val
+              head2 = head2.next
+  
+          current_node = new_head
+  
+          while head1 and head2:
+              if head1.val &lt= head2.val:
+                  current_node.next = head1
+                  head1 = head1.next
+              else:
+                  current_node.next = head2
+                  head2 = head2.next
+              current_node = current_node.next
+  
+          if head1:
+              current_node.next = head1
+          if head2:
+              current_node.next = head2
+  
+          return new_head
+</div>
+       </pre>
+      </code>
       <section id="projects" class="section">
         <h3>Project Example</h3>
         <ul>

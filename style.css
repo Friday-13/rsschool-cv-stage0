@@ -91,6 +91,14 @@ body {
 .section-profile{
 }
 
+.code-example {
+  background-color: #cfd8dc;
+  border: 1px solid red;
+  padding: 10px;
+  display: block;
+  scroll-behavior: inherit;
+  word-wrap: break-word;
+}
 
 .year {
   font-size: 24px;
