@@ -35,6 +35,7 @@ body {
 .header {
   /* border: 1px solid red; */
   padding: 0 0;
+  background-color: #424244;
 }
 
 .main {
@@ -42,6 +43,7 @@ body {
 
 .main-container{
   display:flex;
+  flex-direction: row;
   flex-wrap: wrap;
 }
 
@@ -50,11 +52,11 @@ body {
   flex-direction: row;
   justify-content: space-between;
   padding: 2vw 5vw;
-
+  background-color: #424244;
+  color: white;
 }
 
 .nav {
-  background-color: cyan;
   margin: 0 0;
   padding: 1vh 1vw;
 }
@@ -67,7 +69,7 @@ body {
 }
 
 .nav-item {
-  border-left: 1px solid black;
+  border-left: 1px solid white;
 }
 
 .nav-link {
@@ -75,11 +77,11 @@ body {
   line-height: 50px;
   text-decoration: none;
   transition: .7s; 
-  color: black;
+  color: white;
 }
 
 .nav-link:visited{
-  color: black;
+  color: white;
 }
 
 .nav-link:hover{
@@ -88,14 +90,8 @@ body {
 
 
 .section {
-  width: 50%;
+  width: 100%;
   padding: 15px;
-}
-
-@media(max-width: 750px){
-  .section{
-    width: 100%;
-  }
 }
 
 .section-title {
@@ -132,4 +128,44 @@ body {
 .image-link{
   padding: 2px 2px;
   align-self: center;
+}
+
+
+.left-column{
+  width: 25%;
+  background-color: #424244;
+  color: white;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 5px;
+  /* border: 1px solid red; */
+}
+
+.main-column{
+  width: 75%;
+  padding: 0 50px;
+  /* border: 1px solid red; */
+}
+
+.profile-photo-container{
+  display:flex;
+  justify-content: center;
+}
+
+.profile-photo{
+  width: 75%;
+  border-radius: 50%;
+  margin: auto;
+  border: 1px solid white;
+}
+
+@media(max-width: 750px){
+  .left-column{
+    width: 100%;
+  }
+  .main-column{
+    width: 100%;
+  }
 }
